@@ -12,8 +12,8 @@ public class HolaServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        request.setAttribute("mensaje", "Ancor Glez modificando WAR desde la práctica 04-06.07");
+        request.setAttribute("mensaje", "Ancor modificando WAR desde la práctica 04-06.07");
         request.getRequestDispatcher("/hola.jsp").forward(request, response);
     }
 }
-Ancor Glez modificando WAR desde la práctica 04-06.07
+
